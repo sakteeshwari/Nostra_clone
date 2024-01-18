@@ -42,7 +42,7 @@ rightarrow.addEventListener("click",function(){
     if(slideincrement>200)
     {
         slideincrement=0
-        slideimg.style.marginLeft="3px"
+        slideimg.style.marginLeft=0;
     }
     else
     {

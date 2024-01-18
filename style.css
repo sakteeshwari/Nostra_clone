@@ -28,23 +28,18 @@ body
     padding: 10px;
     
 }
-.most-wanted div>img{
+/* .most-wanted div>img{
 
 }
 .slide-img{
-    transition: 2s;
-}
+    
+} */
 .slide-images{
     height: 100%;
+    transition: 2s;
 }
 .no-scrollbar::-webkit-scrollbar{
     display: none;
 }
 
-@media screen (min-width:768px)  {
-    .slide-img{
-    
-    }
-    
-     
-}
+
