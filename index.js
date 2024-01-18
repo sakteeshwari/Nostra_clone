@@ -30,7 +30,7 @@ closesidemenu.addEventListener("click",function(){
 
 //selecting left arrow right arrow and slide img
 var leftarrow=document.getElementById("leftslide-img")
-var rightarrow=document.getElementById("rightslide_img")
+var rightarrow=document.getElementById("rightslide-img")
 var slideimg=document.getElementById("slide-img")
 
 var slideincrement=0
