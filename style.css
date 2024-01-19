@@ -48,7 +48,7 @@ body
 .newarrival-divparent{
     display: flex;
     flex-wrap: wrap;
-    
+    ;
     
     /* justify-content: center; */
     /* align-items: center; */
@@ -59,15 +59,14 @@ body
     width: 50%;
     flex-grow: 1;
     flex-basis: 50%;
-    /* position: relative; */
+   
      
 }
 
 .newarrival-divchild >img{
-    width: 95%;
+    width: 90%;
     height: 80%;
 }
-
 
 @media screen and (min-width:1000px) {
 
@@ -84,12 +83,6 @@ body
         text-align: center;
         
     }
-  
-    .newarrival-divchild >button{
-        /* position: absolute; */
-        left: 32%;
-
-    } 
     .newarrival-divchild >img{
         width: 70%;
         height: 70%;
@@ -97,5 +90,15 @@ body
     }
 
 }
+
+@media screen and (max-width:1000px) {
+
+    .newarrival-divchild >button{
+       position: absolute;
+       left: 50px;
+       top: 150px; 
+    }
+}
+
 
 
